@@ -1,0 +1,9 @@
+/*Style for Overall*/
+html {text-align: center;
+color: rgb(61,110,170);
+font-family: ;
+font-size: 20px;
+background-image: linear-gradient(to bottom,rgba(127, 255, 212, 0.562), rgb(127,255,212) ); }
+
+/*Display Picture*/
+#display-picture img {border-radius: 50%;}
