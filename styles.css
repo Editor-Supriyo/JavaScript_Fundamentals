@@ -1,9 +1,15 @@
 /*Style for Overall*/
 html {text-align: center;
 color: rgb(61,110,170);
-font-family: ;
+font-family: 'Bebas Neue', sans-serif;
 font-size: 20px;
-background-image: linear-gradient(to bottom,rgba(127, 255, 212, 0.562), rgb(127,255,212) ); }
+background-image: url(/Image/Cover-Picture.jpg);
+background-size: 100%;
+background-repeat: no-repeat;}
 
 /*Display Picture*/
 #display-picture img {border-radius: 50%;}
+
+/*Achievements*/
+#skills {text-align: start;
+padding: 100px;}
