@@ -1,27 +1,15 @@
-/*web page defaut setting*/
-*{margin: 0;
-    padding: 0;
-    font: size 16px; ;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: black;}
-/*web page defaut setting*/
+/*Style for Overall*/
+html {text-align: center;
+color: rgb(61,110,170);
+font-family: 'Bebas Neue', sans-serif;
+font-size: 20px;
+background-image: url(Image/Cover-Picture.jpg);
+background-size: 100%;
+background-repeat: no-repeat;}
 
-/*top sec*/
-.top-sec h1 {font-family: 'Times New Roman', Times, serif;
-    font-size: 300px;}
-.top-sec #title-elements h2 a {text-decoration: none;}
-/*top sect*/
+/*Display Picture*/
+#display-picture img {border-radius: 50%;}
 
-/*input sec*/
-.input-box{padding-top: 50px;}
-.input-box #comment-input {
-    background-color: rgb(66, 66, 66);
-    width: 80%;
-    resize: none;}
-.input-box #save-comment {background-color: antiquewhite;
-    color: brown;
-    width: 300px; height: 40px;}
-.input-box #comment-list {padding-top: 30px;
-    color: rgb(255, 0, 0);}
-/*input sec*/
+/*Achievements*/
+#skills {text-align: start;
+padding: 100px;}
