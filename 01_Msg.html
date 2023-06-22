@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript Practice Set</title>
+    <!-- CSS START -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html {   
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .container {
+            background-color: rgb(37, 37, 37);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1,h2,h3 {
+            font-size: 100px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+    </style>
+    <!-- CSS START -->
+</head>
+    <!-- BODY START -->
+<body>
+    <div class="container">
+        <h1 id="nameArea"></h1>
+        <h2>Welcome to my experimental program</h2>
+        <h3 id="clock"></h3>
+    </div>
+    <!-- Javascript START -->
+    <script>
+        let name = prompt("Enter Your Name")
+        let msg = `Hi! ${name}`
+        document.getElementById("nameArea").innerHTML = msg
+        function updateTime() {
+         const date = new Date();
+         const time = date.toLocaleTimeString();
+         document.getElementById("clock").innerHTML = time;
+        }
+        setInterval(updateTime, 1000);
+    </script>
+    <!-- Javascript START -->
+</body>
+<!-- BODY END -->
+</html>
