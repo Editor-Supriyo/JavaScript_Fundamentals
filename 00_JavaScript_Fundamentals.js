@@ -1,4 +1,4 @@
-/* LEARNING JAVASCRIPT IN 2 DAYS */
+/* LEARNING JAVASCRIPT IN JUST 2 DAYS */
 
 /* CHAPTER: 01 *//* TYPE OF VARIABLES IN JAVASCRIPT */
     /* var, let, const */
@@ -31,7 +31,7 @@
         console.log(item["Orange"])
 
 /* CHAPTER: 05 *//* OPERATORS IN JAVASCRIPT */
-    /* EXAMPLE :
+    /*
     +	Addition
     -	Subtraction
     *	Multiplication
@@ -178,7 +178,6 @@
         let friendName = "Akas"
         console.log(`${friendName} is friend of ${nAme}`)
 
-
 /* CHAPTER: 14 *//* ARRAY and ARRAY METHODS JAVASCRIPT */
         let myArry = [1, 2, 3, 4, 5]
         console.log(myArry)
@@ -200,7 +199,7 @@
            console.log(element);
         });
 
-/* CHAPTER: 14 *//* MAP-FILTER-REDUCE METHODS */
+/* CHAPTER: 15 *//* MAP-FILTER-REDUCE METHODS */
         let myArray = [1, 2, 3, 4, 5];
     /* Map */
         let multipliedArray = myArray.map(function(element) {
@@ -218,30 +217,87 @@
         }, 0);
         console.log(sum); // 15
 
-/* CHAPTER: 15 *//* ACCESING CHILD, PARRENTS AND DOM */
-    /* document.element.firstChild      
-       document.element.lastChild
-       document.element.childNodes
-       document.element.parentNode
-       document.element.parentElement
+/* CHAPTER: 16 *//* DATE, MATH, NUMBER BOOLEAN */
+    /* Date */
+        let date = new Date()
+        console.log(date)
+        console.log(date.toLocaleTimeString())
+        console.log(date.toLocaleDateString())
+        console.log(date.getMinutes())
+        console.log(date.getSeconds())
+        console.log(date.getHours())
+        console.log(date.getDay())
+        console.log(date.getMonth())
+        console.log(date.getFullYear());
+    /* Math */
+        let aNum = 5.25
+        console.log(Math.random(5))
+        console.log(Math.floor(aNum))
+        console.log(Math.ceil(aNum))
+        console.log(Math.max(5,6,7,8))
+        console.log(Math.min(5,6,7,8))
+        console.log(Math.pow())
+        console.log(Math.sqrt())
+        console.log(Math.PI())
+        console.log(Math.E())
+    /* Number */
+        console.log(Number("3.14"));
+        // Output: 3.14
+        console.log(Number(true));
+        // Output: 1
+        console.log(parseInt("3"));
+        // Output: 3
+        console.log(parseFloat("3.14"));
+        // Output: 3.14
+        console.log(Number.MAX_VALUE);
+        // Output: 1.7976931348623157e+308
+        console.log(Number.MIN_VALUE);
+        // Output: 5e-324
+        console.log(1 / 0);
+        // Output: Infinity
+        console.log(-1 / 0);
+        // Output: -Infinity
+        console.log((3.1415926535897932384626433832795).toFixed(2));
+        // Output: "3.14"    
+    /* Boolean */
+        var isTrue = Boolean(1);
+        console.log(isTrue); // Output: true
+        var isFalse = Boolean(0);
+        console.log(isFalse); // Output: false
+        var x = true;
+        var y = false;
+        console.log(x && y); // Output: false
+        console.log(x || y); // Output: true
+        console.log(!x); // Output: false
+        console.log(!y); // Output: truevar b = new Boolean(true);
+        console.log(b.valueOf()); // Output: true
+        var b = new Boolean(true);
+        console.log(b.valueOf()); // Output: true
+
+/* CHAPTER: 17 *//* ACCESING CHILD, PARRENTS AND DOM */
+    /*  document.element.firstChild      
+        document.element.lastChild
+        document.element.childNodes
+        document.element.parentNode
+        document.element.parentElement
     */
-    /* document.element.previousElementSibling
-       document.element.nextElementSibling
-       document.element.firstElementChild
-       document.element.lastElementChild
+    /*  document.element.previousElementSibling
+        document.element.nextElementSibling
+        document.element.firstElementChild
+        document.element.lastElementChild
     */
     /*
-       document.getElementById("")
-       document.getElementsByClassName("")
-       document.querySelectorAll("CSS Selector")[index]
-       document.querySelector("CSS Selector")
+        document.getElementById("")
+        document.getElementsByClassName("")
+        document.querySelectorAll("CSS Selector")[index]
+        document.querySelector("CSS Selector")
     */
     /*
-    setTimeout
-    clearTimeout
-    setInterval
-    clearInterval
-    CloseEvent
+        setTimeout
+        clearTimeout
+        setInterval
+        clearInterval
+        CloseEvent
     */
 
 /* -- THE END -- */
